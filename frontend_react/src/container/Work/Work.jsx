@@ -57,7 +57,7 @@ const Work = () => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        {/* {filterWork.map((work, index) => (
+         {filterWork.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div
               className="app__work-img app__flex"
@@ -87,12 +87,12 @@ const Work = () => {
               <h4 className="bold-text">{work.title}</h4>
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
 
-              <div className="app__work-tag app__flex">
+              {/* <div className="app__work-tag app__flex">
                 <p className="p-text">{work.tags[0]}</p>
-              </div>
+              </div> */}
             </div>
           </div>
-        ))} */}
+        ))}
       </motion.div> 
     </>
   );
