@@ -16,8 +16,7 @@ const About = () => {
   }, []);
   return (
     <>
-    <h2 className='head-text'>We know that <span>great applications</span><br /> help <span>Businesses grow.</span></h2>
-
+    <h2 className='head-text'> Your <span>Vision,</span> <br/> Our <span>Priority.</span> <br/> Manifest your <span>Dreams</span> Into <span>Reality!</span></h2>
     <div className='app__profiles'>
 {abouts.map((about, index) => (
   <motion.div
