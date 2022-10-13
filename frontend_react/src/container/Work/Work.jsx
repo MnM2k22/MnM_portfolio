@@ -38,7 +38,7 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
+      <h2 className="head-text">Creative <span>Portfolio</span> Section</h2>
 
       <div className="app__work-filter">
         {['UI/UX', 'Web App', 'Web3 App', 'React JS', 'All'].map((item, index) => (
@@ -52,12 +52,12 @@ const Work = () => {
         ))}
       </div>
 
-      {/* <motion.div
+      <motion.div
         animate={animateCard}
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        {filterWork.map((work, index) => (
+        {/* {filterWork.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div
               className="app__work-img app__flex"
@@ -80,16 +80,6 @@ const Work = () => {
                     <AiFillEye />
                   </motion.div>
                 </a>
-                <a href={work.codeLink} target="_blank" rel="noreferrer">
-                  <motion.div
-                    whileInView={{ scale: [0, 1] }}
-                    whileHover={{ scale: [1, 0.90] }}
-                    transition={{ duration: 0.25 }}
-                    className="app__flex"
-                  >
-                    <AiFillGithub />
-                  </motion.div>
-                </a>
               </motion.div>
             </div>
 
@@ -102,8 +92,8 @@ const Work = () => {
               </div>
             </div>
           </div>
-        ))}
-      </motion.div> */}
+        ))} */}
+      </motion.div> 
     </>
   );
 };
