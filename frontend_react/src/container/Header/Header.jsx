@@ -35,9 +35,10 @@ const Header = () => {
           </div>
           <div className='tag-cmp' app__flex>
           <p className='p-text'> Full stack Developers </p>
-          <p className='p-text'> Web3 Developers </p>
-          <p className='p-text'> Copywriters </p>
+          <p className='p-text'> Web3 Designers </p>
+          <p className='p-text'> UI/UX Designers </p>
           <p className='p-text'> Content Writers </p>
+          <p className='p-text'> Copywriters </p>
           <p className='p-text'> SEO Writers </p>
           <p className='p-text'> and much more ... </p>
           </div>
