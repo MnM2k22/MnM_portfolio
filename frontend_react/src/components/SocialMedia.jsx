@@ -8,7 +8,7 @@ const SocialMedia = () => {
   return (
     <div className='app__social'>
        <div>
-        <a href='https://wa.me/message/KMM7DA6TMGDJE1'><BsWhatsapp /></a>
+        <a href='https://wa.me/message/F6YZDMW4H7IDF1'><BsWhatsapp /></a>
         </div>
         <div>
         <a href='https://www.twitter.com/mnm_2k22'><BsTwitter /></a>
