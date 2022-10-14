@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsTwitter, BsInstagram, BsDiscord, BsWhatsapp } from 'react-icons/bs';
-import {  FaFacebook, FaYoutube, FaLinkedinIn, FaSpotify, FaVk, FaVimeoV, FaTelegram, FaPatreon, FaMedium, FaPinterestP, FaTumblr } from 'react-icons/fa';
-import { SiUpwork } from 'react-icons/si';
+import { FaYoutube, FaLinkedinIn, FaSpotify, FaVk, FaVimeoV, FaTelegram, FaPatreon, FaMedium, FaPinterestP, FaTumblr } from 'react-icons/fa';
+import { SiUpwork, SiFiverr } from 'react-icons/si';
 import { images }  from '../constants';
 
 const SocialMedia = () => {
