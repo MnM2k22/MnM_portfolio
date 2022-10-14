@@ -7,7 +7,10 @@ import { images }  from '../constants';
 const SocialMedia = () => {
   return (
     <div className='app__social'>
-      <div>
+       <div>
+        <a href='https://www.fiverr.com/mnm2k22'><SiFiverr /></a>
+        </div>
+        <div>
         <a href='https://www.upwork.com/freelancers/~019fb7899e9b692629'><SiUpwork /></a>
         </div>
         <div>
@@ -15,9 +18,6 @@ const SocialMedia = () => {
         </div>
         <div>
         <a href='https://telegram.me/mnm_2k22'><FaTelegram /></a>
-        </div>
-        <div>
-        <a href='https://www.facebook.com'><FaFacebook /></a>
         </div>
         <div>
         <a href='https://vk.com/id755397428'><FaVk /></a>
