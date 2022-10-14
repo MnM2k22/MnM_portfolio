@@ -8,7 +8,7 @@ const SocialMedia = () => {
   return (
     <div className='app__social'>
       <div>
-        <a href='https://www.upwork.com'><SiUpwork /></a>
+        <a href='https://www.upwork.com/freelancers/~019fb7899e9b692629'><SiUpwork /></a>
         </div>
         <div>
         <a href='https://wa.me/message/F6YZDMW4H7IDF1'><BsWhatsapp /></a>
