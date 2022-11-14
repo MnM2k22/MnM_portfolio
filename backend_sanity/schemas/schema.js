@@ -4,6 +4,7 @@ import createSchema from 'part:@sanity/base/schema-creator'
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 import works from './works'
+import products from './products'
 import testimonials from './testimonials'
 import brands from './brands'
 import abouts from './abouts'
@@ -19,7 +20,7 @@ export default createSchema({
   name: 'default',
   // Then proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
-  types: schemaTypes.concat([works, testimonials, brands, abouts, skills, workExperience, experiences, contact
+  types: schemaTypes.concat([works, products, testimonials, brands, abouts, skills, workExperience, experiences, contact
     /* Your types here! */
   ]),
 })
